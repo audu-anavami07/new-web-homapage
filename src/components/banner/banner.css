@@ -1,0 +1,57 @@
+
+
+
+
+.banner {
+
+    height: 350px;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+
+}
+
+
+
+.container {
+
+    display: flex;
+
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 60px;
+
+    justify-content: space-between;
+
+}
+
+
+
+.container .title {
+
+    font-size: 60px;
+
+    font-weight: 800;
+
+    color: var(--contrast-default);
+
+    width: 350px;
+
+    line-height: 54px;
+
+}
+
+
+
+.container .description {
+
+    width: 350px;
+
+    color: var(--font-default);
+
+    line-height: 24px;
+    font-size: 18px;
+
+}

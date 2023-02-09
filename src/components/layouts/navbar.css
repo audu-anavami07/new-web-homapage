@@ -1,0 +1,45 @@
+
+navbar, ul{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+    margin-right: 70px;
+    list-style: none;
+
+}
+
+
+
+.menu li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+
+
+.menu li a:hover{
+
+    color: orangered;
+
+}
+.nav-icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+}

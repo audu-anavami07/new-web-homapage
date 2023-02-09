@@ -1,0 +1,59 @@
+.new-list {
+    position: relative;
+    background-color: black;
+
+    color: wheat;
+
+    padding: 25px;
+
+    width: 350px;
+    margin-left: 70%;
+    top: -575px;
+
+    
+
+}
+
+
+
+.new-list .header {
+
+    color: rgb(255, 106, 0);
+
+    font-size: 40px;
+
+}
+
+
+
+.new-list .new .title {
+
+    font-size: 20px;
+
+    color: white;
+
+    margin-bottom: 10px;
+    
+
+}
+
+
+
+.new-list .new .title:hover {
+
+    cursor: pointer;
+
+    color: rgb(255, 106, 0);
+
+}
+
+
+
+.new-list .new .description {
+
+    font-size:18px ;
+
+    line-height: 26px;
+    color: white;
+
+}
